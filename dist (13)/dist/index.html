@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>overlist</title><script>(function() {
+          function autoRootFontSize() {
+              document.documentElement.style.fontSize =        Math.min(screen.width,document.documentElement.getBoundingClientRect().width)  /  750 * 32 + 'px';
+                // 取screen.width和document.documentElement.getBoundingClientRect().width的最小值；除以750，乘以32；懂的起撒，就是原本是750大小的32px;如果屏幕大小变成了375px,那么字体就是16px;也就是根字体fontSize大小和屏幕大小成正比变化！是不是很简单
+          }
+          window.addEventListener('resize', autoRootFontSize);
+          autoRootFontSize();
+      })();</script><link href="/css/app.30ca9139.css" rel="preload" as="style"><link href="/css/chunk-vendors.444aefed.css" rel="preload" as="style"><link href="/js/app.69eee19e.js" rel="preload" as="script"><link href="/js/chunk-vendors.e7df5f62.js" rel="preload" as="script"><link href="/css/chunk-vendors.444aefed.css" rel="stylesheet"><link href="/css/app.30ca9139.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but overlist doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.e7df5f62.js"></script><script src="/js/app.69eee19e.js"></script></body></html>
